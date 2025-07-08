@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+  }
+
+  /* Active state styling */
+  a:active {
+    font-style: italic;
+    text-decoration: underline;
+  }

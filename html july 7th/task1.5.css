@@ -1,0 +1,11 @@
+h2::before {
+    content: "★ ";
+    color: blue;
+    font-weight: bold;
+  }
+
+  h2::after {
+    content: "*";
+    color: green;
+    font-weight: bold;
+  }

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/1200x/95/fd/50/95fd509d45200593aebc9c38e079c4b2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.content {
+  height: 1000px;
+  width: 100px;
+
+}

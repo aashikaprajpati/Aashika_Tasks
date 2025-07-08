@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certificate Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f1f1;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #083d77;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 20px;
+    }
+
+    .form-row > div {
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      .form-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Certificate Generation Options</h2>
+
+  <label for="mode">Select Mode:</label>
+  <select id="mode">
+    <option>Single Certificate (using form fields)</option>
+    <option>Group Certificate</option>
+  </select>
+
+  <div class="form-row">
+    <div>
+      <label for="certType">Certificate Type:</label>
+      <select id="certType">
+        <option>Project Completion Certificate</option>
+        <option>Best Project Award Certificate</option>
+      </select>
+    </div>
+    <div>
+      <label for="recipient">Recipient Name:</label>
+      <input type="text" id="recipient" placeholder="e.g., Jane Doe">
+    </div>
+    <div>
+      <label for="batch">Batch (e.g., 2021 AD):</label>
+      <input type="text" id="batch" placeholder="e.g., 2024 AD">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div>
+      <label for="program">Program (e.g., BE Computer):</label>
+      <input type="text" id="program" placeholder="e.g., BSc. CSIT">
+    </div>
+    <div>
+      <label for="year">Academic Year (e.g., 2024):</label>
+      <input type="text" id="year" placeholder="e.g., 2024">
+    </div>
+    <div>
+      <label for="project">Project Title:</label>
+      <input type="text" id="project" placeholder="e.g., Advanced Web Application">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div>
+      <label for="instructor">Course Instructor Name:</label>
+      <input type="text" id="instructor" placeholder="e.g., Dr. Alex Ray">
+    </div>
+    <div>
+      <label for="hod">Head Of Department Name:</label>
+      <input type="text" id="hod" placeholder="e.g., Prof. Emily White">
+    </div>
+    <div>
+      <label for="hodDes">HOD Designation (Optional):</label>
+      <input type="text" id="hodDes" placeholder="e.g., Head of Computer Science">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div>
+      <label for="principal">Principal Name:</label>
+      <input type="text" id="principal" placeholder="e.g., Dr. John Davis">
+    </div>
+    <div>
+      <label for="principalDes">Principal Designation (Optional):</label>
+      <input type="text" id="principalDes" placeholder="e.g., College Principal">
+    </div>
+    <div>
+      <label for="college">College Name:</label>
+      <input type="text" id="college" placeholder="e.g., Central Engineering College">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div>
+      <label for="affiliation">Affiliation:</label>
+      <input type="text" id="affiliation" placeholder="e.g., (University Name Affiliation)">
+    </div>
+    <div>
+      <label for="address">College Address:</label>
+      <input type="text" id="address" placeholder="e.g., 123 Tech Park, Silicon City">
+    </div>
+    <div>
+      <label for="phone">Contact Phone:</label>
+      <input type="text" id="phone" placeholder="e.g., +1-555-1234">
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

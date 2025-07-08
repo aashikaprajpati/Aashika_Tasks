@@ -1,0 +1,10 @@
+::selection {
+    background: gold;
+    color: white;
+  }
+
+  /* For better browser support */
+  ::-moz-selection {
+    background: gold;
+    color: white;
+  }

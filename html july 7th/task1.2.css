@@ -1,0 +1,15 @@
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border 0.2s ease;
+  }
+
+  input[type="text"]:focus {
+    border: 2px solid blue;
+    outline: none; /* Removes default browser outline */
+  }
+  #enter{
+    font-size: 30px;
+  }

@@ -1,0 +1,16 @@
+table,th,td{
+    border: 1px solid palevioletred;
+    
+}
+table{
+    width: 100%;
+    margin-bottom: 15px;
+}
+th{
+    height: 80px;
+    width: 50px;
+}
+td{
+    height: 50px;
+    width: 30px;
+}
