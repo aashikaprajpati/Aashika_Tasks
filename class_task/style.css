@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo img {
+    padding: 30px;
+    height: 120px;
+    width: 120px;
+    float: left;
+    border-radius: 100px;
+}
+
+nav {
+    float: inline-start;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.login {
+    padding: 45px;
+    float: right;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 70px;
+    height: 40px;
+    padding: 5px;
+    color: blue;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.content-container {
+    width: 100%;
+    background: gray;
+    padding: 20px 0;
+}
+
+.content-section {
+    background-color: antiquewhite;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content-section img {
+    width: 776px;
+    height: 776px;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.poem-text {
+    margin-top: 20px;
+    width: 776px;
+    padding: 10px;
+    background: wheat;
+    text-align: center;
+}
