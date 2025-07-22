@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="main">
+        <div class="top-box">
+            <h1>STUDENT TASK MANAGER</h1>
+            <p>Organize and track your academic tasks efficiently</p>
+        </div>
+
+        <div class="container">
+            <div class="form-box">
+                <h2>Add New Task</h2>
+
+                <label for="task-name">Task Name:</label>
+                <input id="task-name" type="text" placeholder="Enter task name">
+
+                <label for="date">Due Date:</label>
+                <input id="date" type="date">
+
+                <label for="priority">Priority:</label>
+                <select id="priority">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+
+                <button>Add Task</button>
+            </div>
+
+            <table class="task-table">
+                <thead>
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Due Date</th>
+                        <th>Priority</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Main Assignment</td>
+                        <td><input type="date"></td>
+                        <td>
+                            <select>
+                                <option>Low</option>
+                                <option>Medium</option>
+                                <option>High</option>
+                            </select>
+                        </td>
+                        <td><span class="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>History Essay</td>
+                        <td><input type="date"></td>
+                        <td>
+                            <select>
+                                <option>Low</option>
+                                <option>Medium</option>
+                                <option>High</option>
+                            </select>
+                        </td>
+                        <td><span class="status overdue">Overdue</span></td>
+                    </tr>
+                    <tr>
+                        <td>Science Project</td>
+                        <td><input type="date"></td>
+                        <td>
+                            <select>
+                                <option>Low</option>
+                                <option>Medium</option>
+                                <option>High</option>
+                            </select>
+                        </td>
+                        <td><span class="status completed">Completed</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+</body>
+</html>
